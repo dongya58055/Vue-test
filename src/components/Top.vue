@@ -24,7 +24,7 @@ export default {
         completed: false,
       };
       //对象传给app
-      this.$emit('receive',obj);
+      this.$emit("receive", obj);
       //重置
       e.target.value = "";
     },
